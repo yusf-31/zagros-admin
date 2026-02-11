@@ -1,7 +1,6 @@
+# Cloudflare Pages (Git): build command and output are set in the dashboard.
+# This file is kept for reference; the [site] block was removed because
+# Pages projects do not support "site" in wrangler.toml.
 name = "zagross-admin-panel"
 compatibility_date = "2024-01-01"
-
 pages_build_output_dir = "dist"
-
-[site]
-bucket = "./dist"
