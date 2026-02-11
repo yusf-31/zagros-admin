@@ -134,18 +134,9 @@ export default function Login() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Default Credentials Info */}
-        <div className="mt-4 bg-white rounded-lg shadow p-4">
-          <p className="text-xs text-gray-600 text-center mb-2">Admin Credentials:</p>
-          <div className="text-xs text-gray-700 space-y-1">
-            <p>Email: <code className="bg-gray-100 px-2 py-1 rounded">zyusf68@gmail.com</code></p>
-            <p>Password: <code className="bg-gray-100 px-2 py-1 rounded">Lifewithv8$</code></p>
-          </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
